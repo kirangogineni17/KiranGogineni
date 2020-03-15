@@ -1,0 +1,146 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3430065200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Open Automation practice website and create user",
+        "description": "",
+        "id": "login;open-automation-practice-website-and-create-user;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 705671200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.close_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6070396700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user opens Automation practice website",
+            "match": {
+              "location": "LoginStepDefinition.user_OpensWebsite()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat stepDefinitionsTest.LoginStepDefinition.user_clickSignIn(LoginStepDefinition.java:67)\r\n\tat ✽.user click on Signin(E:/Selenium/Cucumber_Selenium/Features/Login.feature:5)\r\n",
+              "duration": 3312100,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "user click on Signin",
+            "match": {
+              "location": "LoginStepDefinition.user_clickSignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 668100,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "enter email address to create account",
+            "match": {
+              "location": "LoginStepDefinition.enter_EmailAddress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399100,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "click on Create account button",
+            "match": {
+              "location": "LoginStepDefinition.user_clickCreateAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 433400,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user enters Kiran and Kumar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kiran",
+                  "offset": 12
+                },
+                {
+                  "val": "Kumar",
+                  "offset": 22
+                }
+              ],
+              "location": "LoginStepDefinition.user_enterDetails(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 372700,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "I can select state Texas",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Texas",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinition.user_seletState(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394500,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "I can verify title",
+            "match": {
+              "location": "LoginStepDefinition.verify_Title()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "E:/Selenium/Cucumber_Selenium/Features/Login.feature",
+    "tags": []
+  }
+]
